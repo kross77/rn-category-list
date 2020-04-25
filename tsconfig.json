@@ -1,35 +1,20 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
-    "paths": {
-      "*": [
-        "types/*"
-      ]
-    },
+    "declaration": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
     "target": "esnext",
     "moduleResolution": "node",
     "module": "commonjs",
-    "jsx": "react",
-    "lib": [
-      "es2016",
-      "dom",
-      "es5"
-    ],
-    "declaration": true,
-    "sourceMap": true,
-    "outDir": "./dist",
-    "removeComments": true,
-    "noImplicitAny": false,
-    "noImplicitThis": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
+    "lib": ["dom", "esnext"],
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "typeRoots": [
-      "node_modules/@types"
-    ]
+    "skipLibCheck": true,
+    "allowJs": true,
+    "strict": true
   },
   "exclude": [
     "node_modules",
