@@ -3,9 +3,23 @@
 node_modules/
 npm-debug.log
 yarn-error.log
-
+.expo
 # visual studio code
 .vscode
 
 # dist
 dist
+#docs
+docs/node_modules/**/*
+docs/.expo/*
+docs/npm-debug.*
+docs/*.jks
+docs/*.p8
+docs/*.p12
+docs/*.key
+docs/*.mobileprovision
+docs/*.orig.*docs/
+docs/web-build/
+docs/web-report/
+docs/.DS_Store
+
