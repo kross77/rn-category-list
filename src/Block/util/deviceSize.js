@@ -8,16 +8,7 @@ const deviceSize = {
   iPhoneX: {width: 375, height: 812}
 }
 
-
-
 const deviceName = 'current'
-
-// const deviceName = 'iPhone4'
-// const deviceName = 'iPhoneSE'
-// const deviceName = 'iPhone8'
-// const deviceName = 'iPhonePlus'
-// const deviceName = 'iPhoneX'
-
 const currentDevice = process.env.NODE_ENV !== 'development' ? 'current' : deviceName
 
 const getDeviceSize = () => process.env.NODE_ENV !== 'development' ? deviceSize[currentDevice] : deviceSize[currentDevice]

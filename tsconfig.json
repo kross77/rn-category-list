@@ -1,17 +1,25 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
+    "composite": true,
+    "esModuleInterop": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false,
+    "noStrictGenericChecks": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
     "declaration": true,
     "sourceMap": true,
     "removeComments": true,
     "outDir": "./dist",
-    "baseUrl": "./src",
     "allowSyntheticDefaultImports": true,
-    "jsx": "react-native",
-    "target": "esnext",
+    "jsx": "react",
+    "target": "ES6",
     "moduleResolution": "node",
     "module": "commonjs",
     "lib": ["dom", "esnext"],
-    "esModuleInterop": true,
     "skipLibCheck": true,
     "allowJs": true,
     "strict": true
@@ -23,6 +31,7 @@
   ],
   "include": [
     "./src/**/*.tsx",
+    "./src/**/*.js",
     "./src/**/*.ts"
   ]
 }

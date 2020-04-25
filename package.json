@@ -1,5 +1,5 @@
 {
-  "name": "@kross77/layout",
+  "name": "@kross77/react-native-layout",
   "version": "1.0.1",
   "description": "react,react native and jsx npm package generator with typescript",
   "scripts": {
@@ -7,25 +7,26 @@
     "b": "yarn build",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
-    "watch": "tsc --watch",
+    "watch": "tsc -b --watch",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pankod/react-typescript-npm-package-boilerplate"
+    "url": "https://github.com/kross77/react-native-layout"
   },
   "bugs": {
-    "url": "https://github.com/pankod/react-typescript-npm-package-boilerplate/issues"
+    "url": "https://github.com/kross77/react-native-layout/issues"
   },
-  "homepage": "https://github.com/pankod/react-typescript-npm-package-boilerplate",
+  "homepage": "https://github.com/kross77/react-native-layout",
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
-  "main": "dist/index.js",
+  "types": "dist/src/index.d.ts",
+  "main": "dist/src/index.js",
   "keywords": [
     "react",
     "react-native",
+    "layout",
     "npm",
     "typescript",
     "npm package",
@@ -33,17 +34,19 @@
     "babel",
     "react-dom"
   ],
-  "author": "Pankod Inc.",
+  "author": "Ales Krasouski",
   "contributors": [
     {
-      "name": "selcuksarikoz",
-      "email": "selcuk@pankod.com"
+      "name": "kross77",
+      "email": "2051020@gmail.com"
     }
   ],
   "license": "MIT",
   "dependencies": {
-    "react": "16.9.0",
+    "@kross77/react-native-layout": "^1.0.1",
     "babel-preset-react-native": "1.9.0",
+    "react": "16.9.0",
+    "react-native": "0.62.1",
     "styled-components": "3.2.3"
   },
   "devDependencies": {
