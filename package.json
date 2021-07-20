@@ -46,7 +46,7 @@
     "@kross77/react-native-layout": "^1.0.1",
     "babel-preset-react-native": "1.9.0",
     "react": "16.9.0",
-    "react-native": "0.62.1",
+    "react-native": "0.62.3",
     "styled-components": "3.2.3"
   },
   "devDependencies": {
